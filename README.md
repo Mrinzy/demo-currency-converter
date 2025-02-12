@@ -33,8 +33,7 @@ These instructions will get you a copy of the project up and running on your loc
 Start with cloning this repo on your local machine:
 
 ```sh
-$ git clone https://@bitbucket.org/repository.git
-$ cd backend
+$ git clone https://github.com/Mrinzy/demo-currency-converter.git
 ```
 
 To install and set up the library, run:
@@ -72,12 +71,14 @@ Please create a API Key via https://v6.exchangerate-api.com and replace the same
 ## Currency Convert Service : GET Request - 
 ```sh
 {{base_url}}/currency/convert?from=USD&to=EUR&amount=100
-```
-## Header - 
-```sh
-# Authorization with Bearer token received from auth service call
+
+Header - 
+
+Authorization with Bearer token received from auth service call
 x-api-key = DEMO_CLIENT
+
 ```
+
 ```sh
 {{base_url}}    = http://localhost:3000/api
 ```

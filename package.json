@@ -14,7 +14,7 @@
   "keywords": [],
   "author": "Mrinmoyee Mandal",
   "license": "ISC",
-  "homepage": "https://github.com/mrinzy",
+  "homepage": "https://github.com/Mrinzy/demo-currency-converter.git",
   "dependencies": {
     "axios": "^1.7.9",
     "bcryptjs": "^2.4.3",
